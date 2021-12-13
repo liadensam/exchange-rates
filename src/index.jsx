@@ -12,19 +12,19 @@ const App = () => {
 
   return (
     <div className="container">
-      <h1>Kurzovní lístek</h1>
+      <h1>Exchange rate</h1>
       <div className="currency-info">
         <form>
           <div className="form-field">
-            <label htmlFor="currency-select">Měna:</label>
+            <label htmlFor="currency-select">Currency:</label>
             <select
               id="currency-select"
               value={currency}
               onChange={handleCurrencyChange}
             >
-              <option value="USD">Americký dolar</option>
+              <option value="USD">American dollar</option>
               <option value="EUR">Euro</option>
-              <option value="GBP">Britská libra</option>
+              <option value="GBP">British pound</option>
             </select>
           </div>
         </form>
